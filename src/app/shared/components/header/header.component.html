@@ -1,0 +1,24 @@
+  <nav class="nav">
+    <div class="container">
+      <h1 class="logo"><a routerLink="/">Mplaces</a></h1>
+      <div class="container">
+        <select name="type" #searchtype >
+          <option value="Stores">Boutique</option>
+          <option value="Products">Produits</option>
+          <option value="Services">Services</option>
+        </select>
+
+        <input placeholder="ta recherche ici" type="text" #searchfield >
+        <button type="submit" (click)="search()" >Recherche</button>
+
+      <ul>
+        <li><a routerLink="/home" class="current">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a routerLink="/contact"href="#">Contact</a></li>
+      </ul>
+    </div>
+    </div>
+  </nav>
+  <script src="assets/home/nav.js"></script>
+

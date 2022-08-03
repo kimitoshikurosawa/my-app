@@ -68,11 +68,10 @@ body {
 }
 
 .hero {
-  background-image: url('src/assets/images/adminbanner/00/00337-6104443b4e3c0641440099.jpg');
+  background-image: url('https://images.pexels.com/photos/450035/pexels-photo-450035.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom center;
-  object-fit:cover;
   height: 100vh;
   color: #fff;
   display: flex;
@@ -116,3 +115,5 @@ body {
   line-height: 30px;
   letter-spacing: 1px;
 }
+
+
